@@ -2,7 +2,7 @@ const IndexController = {};
 
 function Index(req, res) {
   const response = {
-    message: 'REST-API Simple Services',
+    message: 'Minutas Factory REST-API',
     version: '1.0.0',
   };
   res.send(response);
@@ -10,7 +10,7 @@ function Index(req, res) {
 
 function Terms(req, res) {
   const response = {
-    header: 'Términos y condiciones de Simple Services',
+    header: 'Términos y condiciones de Minutas Factory &copy',
     message: 'Acá van a ir los Términos y condiciones, los pondré cuando Carlitus los haga :v\n\n' + 
     'Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque tenetur saepe repellat, fugiat perferendis temporibus quisquam mollitia optio blanditiis unde\n'+
     'Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque nisi dolor at beatae, impedit, quis odit vel id omnis laborum repudiandae asperiores harum quae nobis vero tempore recusandae mollitia earum dolores? Sequi est quod at, earum nemo quaerat doloremque optio, explicabo cupiditate unde, voluptatibus voluptas numquam aperiam repudiandae quibusdam alias\n'+    
